@@ -1,3 +1,5 @@
+@use '/src/style/var';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -7,19 +9,21 @@
     white-space: nowrap;
 
     &--primary {
-        color: #fff;
-        background-color: rgb(95, 22, 116);
+        color:var.$textColor;
+        background-color: var.$purple;
     }
 
     @media (max-width: 640px) {
         display: block;
         width: 100%;
+        justify-content: center;
      
     }
 
     @media (max-width: 1024px) {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 }
 

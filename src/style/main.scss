@@ -1,6 +1,10 @@
 @use 'hero';
+@use 'event';
+@use 'var';
 @use 'components/infos_bar';
 @use 'components/buttons';
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Roboto:wght@400;900&family=Satisfy&display=swap');
 
@@ -9,7 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: white;
+    color: var.$textColor;
     list-style: none;
 }
 
