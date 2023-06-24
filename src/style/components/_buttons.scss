@@ -9,7 +9,7 @@
     white-space: nowrap;
 
     &--primary {
-        color:var.$textColor;
+        color:var.$textColor !important;
         background-color: var.$purple;
     }
 
